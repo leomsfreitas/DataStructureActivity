@@ -1,41 +1,46 @@
-# Projetos de Estrutura de Dados – 2025/01
+# Data Structure Projects — 2025/01
 
-## Disciplina
-**Estrutura de Dados – 2025/01**  
-**Professor:** Jorge Francisco Cutigi
+## Course
 
-## Integrantes
-Leo Freitas – SC3045366
+**Data Structures — 2025/01**  
+**Instructor:** Jorge Francisco Cutigi
 
-## Sobre
-Este repositório contém os projetos desenvolvidos ao longo da disciplina de Estrutura de Dados. Cada projeto aborda um tema específico, com foco na implementação de estruturas e algoritmos em C.
+## Members
 
-## Projetos
-### 1. **Lista Ordenada**
-- **Descrição:** Implementa uma TAD para armazenar inteiros de forma ordenada, com alocação dinâmica e expansão automática.
-- **Diretório:** `project-ordered-list`
+Leo Freitas — SC3045366
 
-### 2. **QuickSort Não Recursivo**
-- **Descrição:** Implementa o algoritmo QuickSort de forma iterativa, utilizando uma TAD para simular a pilha da recursão.
-- **Diretório:** `project-non-recursive-quick-sort`
+## About
 
-### 3. **Fila do Banco**
-- **Descrição:** Simula o atendimento em um banco com duas filas (geral e prioridade), seguindo regras específicas de atendimento. Foi utilizada uma TAD lista circular para implementar as filas.
-- **Diretório:** `project-bank-queue`
+This repository contains the projects developed throughout the Data Structures course. Each project addresses a specific topic, focusing on the implementation of data structures and algorithms in C.
 
-### 4. **Árvore Binária**
-- **Descrição:** Implementa uma estrutura de árvore binária com operações básicas.
-- **Diretório:** `project-binary-tree`
+## Projects
 
-## Como rodar os projetos
-Cada projeto possui um `makefile` para facilitar a compilação. Para rodar, navegue até o diretório do projeto e execute:
+### 1. **Ordered List**
+- **Description:** Implements an ADT to store integers in sorted order, with dynamic memory allocation and automatic resizing.
+- **Directory:** `project-ordered-list`
+
+### 2. **Non-Recursive QuickSort**
+- **Description:** Implements the QuickSort algorithm iteratively, using an ADT to simulate the recursion stack.
+- **Directory:** `project-non-recursive-quick-sort`
+
+### 3. **Bank Queue**
+- **Description:** Simulates customer service in a bank with two queues (general and priority), following specific service rules. A circular list ADT is used to implement the queues.
+- **Directory:** `project-bank-queue`
+
+### 4. **Binary Tree**
+- **Description:** Implements a binary tree data structure with basic operations.
+- **Directory:** `project-binary-tree`
+
+## How to Run
+
+Each project includes a `makefile` to simplify compilation. To run a project, navigate to its directory and execute:
 
 ```bash
 make
 ./main_program
 ```
 
-Para limpar os arquivos objeto e binário:
+To clean object and binary files:
 ```bash
 make clean
 ```
